@@ -1,5 +1,4 @@
 import illu from './image.png';
-import './App.css';
 import AnimatedCursor from "react-animated-cursor"
 import {
   BrowserRouter as Router,
