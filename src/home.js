@@ -10,31 +10,25 @@ import {
 import About from "./about";
 import Portfolio from "./portfolio";
 import Contact from "./contact";
-import Home from "./home";
 
 
 
-function App() {
+function Home() {
   return (
     
-    <div>
-
-      <AnimatedCursor 
-        innerSize={8}
-        outerSize={12}
-        color='239, 139, 128'
-        outerAlpha={0.2}
-        innerScale={0.7}
-        outerScale={8}
-      />
-
-      <Home />
-      
+    <div className="App">
+      <div className="App-header">
+        <div className="App-nav">        
+          <Link to="/about">About</Link>         
+          <Link to="/portfolio">Portfolio</Link>         
+          <Link to="/contact">Contact</Link>         
+        </div>
+      </div> 
     </div>
   );
 }
 
-export default App;
+export default Home;
 
 
 //        <img className="image" src={illu} alt="Illu" />
