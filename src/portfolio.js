@@ -15,6 +15,16 @@ import Contact from "./contact";
 function Portfolio() {
   return (
     <div className="portfolio">
+
+      <AnimatedCursor 
+        innerSize={8}
+        outerSize={12}
+        color='239, 139, 128'
+        outerAlpha={0.2}
+        innerScale={0.7}
+        outerScale={8}
+      />
+      
       <div className="portfolio-header">
         <div className="portfolio-nav">        
           <Link to="/about">Building Office</Link>         
@@ -24,6 +34,12 @@ function Portfolio() {
           <Link to="/contact">Greenie</Link>                   
         </div>
       </div> 
+
+      <div>
+        <h1>Title</h1>
+        <p>Bread text I guess this is unstyled</p>
+      </div>
+
     </div>
   );
 }

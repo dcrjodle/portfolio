@@ -1,4 +1,4 @@
-import illu from './image.png';
+import logo from './logo.png';
 import './App.css';
 import AnimatedCursor from "react-animated-cursor"
 import {
@@ -17,7 +17,10 @@ function Home() {
   return (
     
     <div className="App">
+
       <div className="App-header">
+      <img src={logo} className="logo" alt="logo"></img>
+
         <div className="App-nav">        
           <Link to="/about">About</Link>         
           <Link to="/portfolio">Portfolio</Link>         

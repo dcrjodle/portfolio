@@ -27,6 +27,7 @@ function App() {
         outerScale={8}
       />
 
+
       <Home />
       
     </div>
